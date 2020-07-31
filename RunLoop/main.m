@@ -11,8 +11,10 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"%p %p", [NSRunLoop mainRunLoop], [NSRunLoop currentRunLoop]);
-        NSLog(@"%p %p", CFRunLoopGetMain(), CFRunLoopGetCurrent());
+//        NSLog(@"%@", [NSRunLoop mainRunLoop]);
+        NSLog(@"%@", CFRunLoopGetMain());
     }
     return 0;
 }
+
+
