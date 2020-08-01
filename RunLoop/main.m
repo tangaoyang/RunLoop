@@ -7,14 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TAYThread.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-//        NSLog(@"%@", [NSRunLoop mainRunLoop]);
-        NSLog(@"%@", CFRunLoopGetMain());
-    }
+    TAYThread *aThread = [[TAYThread alloc] initWithTarget:self selector:@selector(doSomething) object:nil];
+        [aThread start];
     return 0;
+}
+
+- (void)doSomething {
+    NSLog(@"%@", __func__);
 }
 
 

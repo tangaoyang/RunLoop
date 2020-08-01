@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		860BA9BD24D2B98B00755E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 860BA9BC24D2B98B00755E08 /* main.m */; };
-		860BA9C524D3F6EA00755E08 /* AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 860BA9C424D3F6EA00755E08 /* AFNetworking.m */; };
+		8618FF3724D5AD510013E584 /* TAYThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8618FF3624D5AD510013E584 /* TAYThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		860BA9B924D2B98A00755E08 /* RunLoop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RunLoop; sourceTree = BUILT_PRODUCTS_DIR; };
 		860BA9BC24D2B98B00755E08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		860BA9C324D3F6EA00755E08 /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		860BA9C424D3F6EA00755E08 /* AFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworking.m; sourceTree = "<group>"; };
+		8618FF3524D5AD510013E584 /* TAYThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAYThread.h; sourceTree = "<group>"; };
+		8618FF3624D5AD510013E584 /* TAYThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAYThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				860BA9BC24D2B98B00755E08 /* main.m */,
-				860BA9C324D3F6EA00755E08 /* AFNetworking.h */,
-				860BA9C424D3F6EA00755E08 /* AFNetworking.m */,
+				8618FF3524D5AD510013E584 /* TAYThread.h */,
+				8618FF3624D5AD510013E584 /* TAYThread.m */,
 			);
 			path = RunLoop;
 			sourceTree = "<group>";
@@ -123,8 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				860BA9C524D3F6EA00755E08 /* AFNetworking.m in Sources */,
 				860BA9BD24D2B98B00755E08 /* main.m in Sources */,
+				8618FF3724D5AD510013E584 /* TAYThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
